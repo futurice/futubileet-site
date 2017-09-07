@@ -8,16 +8,22 @@ html, body {
   padding:0;
 }
 
+html {
+  background: url('http://futurice.party/img-assets/bg-pattern.png');
+}
+
 body {
-  font-family: sans-serif;
+  font-family: 'Futurice Regular', sans-serif;
   font-size: 1em;
   position: relative;
-  color: #231F20;
-  padding: 0.5em 1em;
+  color: #fff;
+  padding: 0;
+  background-size: cover;
+  background: rgba(74, 48, 146, .8);
+  padding: 20px;
 }
 
 #main {
-  background: #F1523F;
   min-height: 100vh;
   padding: 0;
 }
@@ -30,17 +36,19 @@ body {
   text-transform: uppercase;
   font-size: 2em;
   text-align: center;
+  overflow: hidden;
 }
 
 #hero img {
-  width: 100%;
+  width: 50%;
 }
 
 
 h1, h2, h3 {
+  margin: 0 0 20px;
   font-size: 1.5em;
   font-weight: normal;
-  color: #FF5240;
+  color: #FEF4B7;
 }
 
 h2, h3 {
@@ -57,10 +65,10 @@ footer {
 }
 
 footer a {
-  color: rgba(255,255,255,.8);
+  color: #FEF4B7;
   text-decoration: none;
   margin-bottom: 1em;
-  font-weight: bold;
+  font-weight: normal;
   display: inline-block;
 }
 
